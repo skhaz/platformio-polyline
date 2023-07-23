@@ -1,6 +1,6 @@
 {
   "name": "Polyline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A C++ implementation of Google Encoded Polyline Algorithm Format (encoder/decoder)",
   "keywords": "polyline, compression, lossless",
   "repository": {
@@ -9,7 +9,7 @@
   },
   "authors": [
     {
-      "name": "Rodrigo Deldica",
+      "name": "Rodrigo Delduca",
       "email": "rodrigodelduca@gmail.com",
       "url": "https://rodrigodelduca.com.br/"
     }
