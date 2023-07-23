@@ -1,0 +1,34 @@
+name: release
+
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Restore Cache
+        uses: actions/cache@v3
+        with:
+          key: pio
+          path: |
+            ~/.cache/pip
+            ~/.platformio/.cache
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install PlatformIO
+        run: pip install --upgrade platformio
+
+      - name: Publish
+        run: pio pkg publish --no-interactive
+        env:
+          PLATFORMIO_AUTH_TOKEN: ${{ secrets.PLATFORMIO_AUTH_TOKEN }}

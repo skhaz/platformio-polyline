@@ -1,0 +1,21 @@
+{
+  "name": "Polyline",
+  "version": "1.0.0",
+  "description": "A C++ implementation of Google Encoded Polyline Algorithm Format (encoder/decoder)",
+  "keywords": "polyline, compression, lossless",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skhaz/platformio-polyline.git"
+  },
+  "authors": [
+    {
+      "name": "Rodrigo Deldica",
+      "email": "rodrigodelduca@gmail.com",
+      "url": "https://rodrigodelduca.com.br/"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/vahancho/polylineencoder",
+  "frameworks": "*",
+  "platforms": "*"
+}
