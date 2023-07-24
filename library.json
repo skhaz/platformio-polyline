@@ -1,11 +1,11 @@
 {
   "name": "Polyline",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A C++ implementation of Google Encoded Polyline Algorithm Format (encoder/decoder)",
   "keywords": "polyline, compression, lossless",
   "repository": {
     "type": "git",
-    "url": "https://github.com/skhaz/platformio-polyline.git"
+    "url": "https://github.com/skhaz/polyline.git"
   },
   "authors": [
     {
